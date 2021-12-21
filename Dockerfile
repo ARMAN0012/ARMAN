@@ -1,4 +1,4 @@
-RUN git clone -b ARMAN https://github.com/ARMAN0012/ARMAN /root/userbot
+RUN git clone -b RAM-UBOT https://github.com/ARMAN0012/ARMAN /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
